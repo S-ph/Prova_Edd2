@@ -1,0 +1,12 @@
+multiplas árvores são florestas.
+as folhas da árvore são as paginas externas.
+na árvore-B cada nó é uma página e não uma folha, pois em cada nó existem muitos valores guardados, e sempre 1 ponteiro a mais que o número de valores na página.
+as árvores B são ordenadas;
+Cada ponteiro, leva para um filho dessa página, ou seja, se eu tiver uma página com os elemento:  3,5,8.
+ente os elementos 3 e 5 eu tenho um ponteiro que leva a outra página, que só pode ter valores entre 3  e 5 , ou seja 4 ou vazio.
+
+ela opera em complexidade logarítmica.
+
+para inserir ou remover, antes eu devo realizar uma busca.
+
+quando eu não tenho mais espaço em uma página eu devo dividí-la.
